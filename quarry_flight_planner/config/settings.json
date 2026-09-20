@@ -1,0 +1,26 @@
+{
+  "camera": {
+    "name": "AlphaAir 450",
+    "sensor_width_mm": 23.1,
+    "sensor_height_mm": 15.4,
+    "resolution_x": 6252,
+    "resolution_y": 4168,
+    "focal_length_mm": 25.0
+  },
+  "flight": {
+    "forward_overlap": 0.80,
+    "side_overlap": 0.70,
+    "target_gsd_cm": 1.0,
+    "safety_clearance_m": 30.0
+  },
+  "terrain": {
+    "type": "tin",
+    "source": "data/terrain/quarry.csv",
+    "rows": 51,
+    "cols": 51
+  },
+  "paths": {
+    "objects_dir": "data/objects",
+    "output_dir": "data/output"
+  }
+}
